@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.brand {
+    padding: 20px;
+}
+
+section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 54px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+
+.hero {
+    background-image: url(./assets/Villa.jpg);
+    height: 500px;
+}
+
+.about {
+    background-image: url(./assets/Villa2.jpg);
+    height: 500px;
+}
+
+.gallery {
+    background-image: url(./assets/Villa3.jpg);
+    flex-direction: column;
+}
+.gallery-text {
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+
+.img-gallery img {
+    width: 280px;
+    margin: 10px;
+    background-color: gainsboro;
+    padding: 10px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
